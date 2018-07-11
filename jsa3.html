@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jsa3</title>
+		<script type="text/javascript" src="test.js">			
+		</script>
+	</head>
+	<body onload="addOption_list()">
+		<FORM name="drop_list" id="myForm" value="abc" >
+			First Name:<br>
+			<input type="text" name="firstname" ><br><br>
+			
+			Last Name:<br>
+			<input type="text" name="lastname"><br><br>
+			
+			Email:<br>
+			<input type="email" name="email" ><br><br>
+			
+			Contact Number:<br>
+			<input type="number" name="number"><br><br>
+			
+			Address<br>
+			<textarea name="address" rows="2" cols="22"></textarea><br><br>
+			
+			Username:<br>
+			<input type="text" name="username"><br><br>
+			
+			Password:<br>
+			<input type="password" name="password"><br><br>
+			
+			Gender:<br>
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br><br>
+			
+			Qualification:<br>
+			<SELECT  NAME="quali_list">
+				<Option value="quali[i]" name="quali[i]">Qualification</option>
+			</SELECT>
+			<br><br>
+			
+			Experience:<br>
+			<SELECT  NAME="exp_list">
+				<Option value="exp[i]" name="exp[i]">Experience</option>
+			</SELECT>
+			<br><br>
+			
+			Coding Languages:</br>
+            <div id="cb" name="cb"></div>
+			<br><br>						
+		</form>
+		<button type="submit" value="Submit" onclick="myFunction()">Submit</button>		
+	</body>
+</html>
